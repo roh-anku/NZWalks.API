@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo5Mwnocev0GpdnhzD5uVxQAAAAACAAAAAAAQZgAAAAEAACAAAACOs50IzdSqIdSQSEpg2YZTttL6+G4DiZRLcBHRkEcGjQAAAAAOgAAAAAIAACAAAAD0/BYntbmEC5xQb8qS3o1FfxktW7QkSVEfnc4B3Iahn4AAAADUe9vjihbxinQzul5p4I2GpVkpzedhNvRXJ9KsCAWuhx/pgjAw0zF2XzTw3d2qyleeYt0PP+jqwng9Ty/LKGrVgegvBnYCIS/tcx2D2SAMg+R6Mb4uAnkYVlWLaFfl67CMy1/pG/Y/RWA/n//316GsqjsPVx8n855PgljXmlA7OEAAAAASutd3HIVRgQk6uiKzhInvyiIRfDPj0+YsF9mdokNiXO95Tl4/1osGjnSyUBzP9K/5Iiy0Bu5cdDtP14Bvi8de</EncryptedPassword>
+    <History>True|2026-02-05T10:17:39.8131989Z||;True|2026-02-05T15:41:23.1928508+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=sqlserver-nzwalks-northeurope.database.windows.net,1433;Initial Catalog=sqldb-nzwalks-northeurope;Authentication=ActiveDirectoryManagedIdentity" />
+    <AzureDBConnectionStrings Include="Server=tcp:sqlserver-nzwalks-northeurope.database.windows.net;Authentication=Active Directory Default;Initial Catalog=sqldb-nzwalks-northeurope" />
+  </ItemGroup>
+</Project>

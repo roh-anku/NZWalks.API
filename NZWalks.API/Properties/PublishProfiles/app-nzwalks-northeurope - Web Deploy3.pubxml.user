@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo5Mwnocev0GpdnhzD5uVxQAAAAACAAAAAAAQZgAAAAEAACAAAACWOpV+mzwkB7Y6m5M0qIUlp4SCdKUhcWLnqwSfK9LFDgAAAAAOgAAAAAIAACAAAABEWL+36gt8CMFuaTDrXoYsJg+GfBY1rj/3Vj5IvcTrxYAAAACcO1lYOZeMK8TLFPTXUUucRCD+wcWA7QAl6du+eg7qt9n6P1RSsy63iIg6HuwqYNFrwwD5UIEwtWO2KJtwri72Hd9HVnY/JeFWqceyKxv/KrtzdXnA47UgI2R/P5yLT/BsbYnvSWyiLaZlI/0jtA5hcvXuxnThYj2JjLzIkothkUAAAACn8nnVyjAVyGTfl63wLsZeyGaC2ve6GB6nDOk13TP5hiomI4kyYUuLDeP1JAnx4kVVB0ijI+i3ER6ZAgYVoKw4</EncryptedPassword>
+    <History>True|2026-02-05T10:31:48.5062006Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=sqlserver-nzwalks-northeurope.database.windows.net,1433;Initial Catalog=sqldb-nzwalks-northeurope;Authentication=ActiveDirectoryManagedIdentity" />
+    <AzureDBConnectionStrings Include="Server=tcp:sqlserver-nzwalks-northeurope.database.windows.net;Authentication=Active Directory Default;Initial Catalog=sqldb-nzwalks-northeurope" />
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="NZWalksAuthConnectionString">
+      <Value>Server=tcp:sqlserver-nzwalks-northeurope.database.windows.net%3bInitial Catalog=sqldb-nzwalks-northeurope%3bUser ID=nzwalksadmin%3bPassword=Rohit%40123%3bEncrypt=True%3bTrustServerCertificate=False%3bMultipleActiveResultSets=True%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="NZWalksConnectionString">
+      <Value>Server=tcp:sqlserver-nzwalks-northeurope.database.windows.net%3bInitial Catalog=sqldb-nzwalks-northeurope%3bUser ID=nzwalksadmin%3bPassword=Rohit%40123%3bEncrypt=True%3bTrustServerCertificate=False%3bMultipleActiveResultSets=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

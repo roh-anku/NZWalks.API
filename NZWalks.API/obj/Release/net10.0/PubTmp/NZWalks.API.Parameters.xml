@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="app-nzwalks-northeurope" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\\.Net\ Projects\\NZWalks\.API\\NZWalks\.API\\obj\\Release\\net10\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

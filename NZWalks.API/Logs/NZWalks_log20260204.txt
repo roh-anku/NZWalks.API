@@ -1,0 +1,27 @@
+2026-02-04 23:16:22.521 +05:30 [INF] User profile is available. Using 'C:\Users\Ankita\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-04 23:16:23.871 +05:30 [INF] Now listening on: https://localhost:7053
+2026-02-04 23:16:23.878 +05:30 [INF] Now listening on: http://localhost:5237
+2026-02-04 23:16:24.903 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 23:16:24.909 +05:30 [INF] Hosting environment: Development
+2026-02-04 23:16:24.921 +05:30 [INF] Content root path: D:\.Net Projects\NZWalks.API\NZWalks.API
+2026-02-04 23:16:25.021 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7053/ - null null
+2026-02-04 23:16:26.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7053/ - 404 null null 1177.0116ms
+2026-02-04 23:16:26.235 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7053/, Response status code: 404
+2026-02-04 23:16:27.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 23:16:27.730 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-02-04 23:16:27.802 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 80.6503ms
+2026-02-04 23:16:28.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 338.1646ms
+2026-02-04 23:16:28.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-02-04 23:16:28.438 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 298.3296ms
+2026-02-04 23:16:31.386 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7053/api/Regions - null null
+2026-02-04 23:16:31.899 +05:30 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.Get (NZWalks.API)'
+2026-02-04 23:16:32.025 +05:30 [INF] Route matched with {action = "Get", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2026-02-04 23:16:33.515 +05:30 [INF] Inside get all regions API
+2026-02-04 23:16:40.733 +05:30 [INF] Executed DbCommand (177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2026-02-04 23:16:41.029 +05:30 [INF] finished executing get all regions API
+2026-02-04 23:16:41.146 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.API.Models.DTOs.RegionDto, NZWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-04 23:16:41.247 +05:30 [INF] Executed action NZWalks.API.Controllers.RegionsController.Get (NZWalks.API) in 9166.2056ms
+2026-02-04 23:16:41.261 +05:30 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.Get (NZWalks.API)'
+2026-02-04 23:16:41.308 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7053/api/Regions - 200 null application/json; charset=utf-8 9922.7345ms
